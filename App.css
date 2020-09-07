@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.doggyContacts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contactInfo {
+	flex-basis: 250px;
+	margin: 20px;
+}
+
+.contactInfo > img {
+	width: 100%;
+	height: auto;
+}
+
+.contactInfo > h3 {
+	text-align: center;
+}
+
+.contactInfo > p {
+	font-size: 14px;
+}
